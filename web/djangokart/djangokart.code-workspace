@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../data_analysis"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../../Downloads/greatkart_template/kart-templates"
+		},
+		{
+			"path": "../../python_apis"
+		},
+		{
+			"path": "../../projects"
+		}
+	],
+	"settings": {}
+}
