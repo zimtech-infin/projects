@@ -53,3 +53,10 @@ Thumbs.db
 *.pyo
 __pycache__/
 
+
+
+# Ignore README files #
+#######################
+README
+README.md
+README.txt
