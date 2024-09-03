@@ -1,0 +1,92 @@
+<LoginScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        TextInput:
+            id: email_input
+            hint_text: 'Enter email'
+            on_text_validate: root.focus_next()
+        TextInput:
+            id: password_input
+            hint_text: 'Enter password'
+            password: True
+            on_text_validate: root.focus_next()
+        Button:
+            text: 'Login'
+            on_press: root.login()
+        Button:
+            text: 'Create Account'
+            on_press: root.create_account()
+
+<CreateAccountScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        TextInput:
+            id: first_name_input
+            hint_text: 'Enter first name'
+            on_text_validate: root.focus_next()
+        TextInput:
+            id: last_name_input
+            hint_text: 'Enter last name'
+            on_text_validate: root.focus_next()
+        TextInput:
+            id: email_input
+            hint_text: 'Enter email'
+            on_text_validate: root.focus_next()
+        TextInput:
+            id: title_input
+            hint_text: 'Enter title'
+            on_text_validate: root.focus_next()
+        TextInput:
+            id: password_input
+            hint_text: 'Enter password'
+            password: True
+            on_text_validate: root.focus_next()
+        Button:
+            text: 'Create Account'
+            on_press: root.create_account()
+
+<UserHomePage>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            id: welcome_label
+            text: 'Welcome'
+        Button:
+            text: 'View Kanban'
+            on_press: root.view_kanban()
+        Button:
+            text: 'View Account'
+            on_press: root.view_account()
+        Button:
+            text: 'Change Password'
+            on_press: root.change_password()
+
+<KanbanScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            id: summary_label
+            text: 'Summary'
+
+<UserAccountScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            id: user_info_label
+            text: 'User Information'
+
+<ChangePasswordScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        TextInput:
+            id: email_input
+            hint_text: 'Enter email'
+            on_text_validate: root.focus_next()
+        TextInput:
+            id: new_password_input
+            hint_text: 'Enter new password'
+            password: True
+            on_text_validate: root.focus_next()
+        Button:
+            text: 'Change Password'
+            on_press: root.change_password()
