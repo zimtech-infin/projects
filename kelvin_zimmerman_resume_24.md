@@ -1,7 +1,7 @@
 # Kelvin Zimmerman  
 
 kelvin@zimtechllc.us  
-+1 (839) 216-9634  
+
 github:https://github.com/zimtech-infin/projects
 dockerhub: https://hub.docker.com/repositories/zimtech02
 
